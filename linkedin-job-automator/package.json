@@ -1,0 +1,13 @@
+{
+  "name": "linkedin-job-automator",
+  "version": "1.0.0",
+  "description": "LinkedIn Job Application Automation Extension",
+  "dependencies": {
+    "tesseract.js": "^4.1.1",
+    "puppeteer": "^21.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
