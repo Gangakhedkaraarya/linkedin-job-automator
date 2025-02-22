@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Job Search Filters</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Job Search Filters</h2>
+    <form id="filterForm">
+      <input type="text" id="keywords" placeholder="Keywords">
+      <input type="text" id="location" placeholder="Location">
+      <label for="jobType">Job Type</label>
+      <select id="jobType">
+        <option value="fulltime">Full-time</option>
+        <option value="parttime">Part-time</option>
+        <option value="contract">Contract</option>
+      </select>
+      <label for="experience">Experience Level</label>
+      <select id="experience">
+        <option value="entry">Entry Level</option>
+        <option value="mid">Mid-Senior Level</option>
+        <option value="senior">Senior Level</option>
+      </select>
+      <button type="submit">Start Automation</button>
+    </form>
+    <a href="../dashboard/dashboard.html" target="_blank">View Dashboard</a>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
