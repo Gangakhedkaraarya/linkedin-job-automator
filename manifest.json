@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Job Automator",
+  "version": "1.0",
+  "description": "Automate LinkedIn job applications with smart filtering",
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://*.linkedin.com/*"
+  ],
+  "action": {
+    "default_popup": "src/popup/popup.html",
+    "default_icon": "assets/icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [{
+    "matches": ["https://*.linkedin.com/*"],
+    "js": ["src/content/content.js"]
+  }]
+}

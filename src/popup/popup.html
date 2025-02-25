@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>LinkedIn Job Automator</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Job Search Filters</h2>
+    <form id="filterForm">
+      <input type="text" id="Category" placeholder="Category">
+      <input type="text" id="location" placeholder="Location">
+      <label for="jobType">Job Type</label>
+      <select id="jobType">
+        <option value="">Job Type</option>
+        <option value="fulltime">Full-time</option>
+        <option value="contract">Contract</option>
+        <option value="remote">Remote</option>
+      </select>
+      <label for="experience">Experience Level</label>
+      <select id="experience">
+        <option value="">Experience Level</option>
+        <option value="entry">Entry Level</option>
+        <option value="mid">Mid-Senior</option>
+        <option value="senior">Senior</option>
+      </select>
+      <button type="submit">Start Automation</button>
+    </form>
+    <a href="dashboard/dashboard.html" target="_blank">View Dashboard</a>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

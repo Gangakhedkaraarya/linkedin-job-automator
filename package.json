@@ -1,0 +1,16 @@
+{
+  "name": "linkedin-job-automator",
+  "version": "1.0.0",
+  "description": "LinkedIn job application automation extension",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "tesseract.js": "^4.1.1",
+    "puppeteer": "^21.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
